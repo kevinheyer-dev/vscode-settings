@@ -1,3 +1,5 @@
+KylinIDETeam.gitlens: '{"gitlens:views:welcome:visible":false,"gitlens:version":"0.1.10","gitlens:synced:version":"0.1.10"}'
+ms-azuretools.vscode-containers: '{"containers.settings.migrated":true}'
 ms-python.python: '{"PYTHON_ENV_INFO_CACHEv2":[{"name":"","location":"","kind":"unknown","executable":{"filename":"C:\\Users\\Kevin\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe","sysPrefix":"C:\\Users\\Kevin\\AppData\\Local\\Python\\pythoncore-3.14-64","ctime":1766998226357,"mtime":1766998223972},"display":"Python
   3.14.2
   64-bit","version":{"major":3,"minor":14,"micro":2,"release":{"level":"final","serial":0},"sysVersion":"3.14.2
@@ -9,7 +11,7 @@ ms-python.python: '{"PYTHON_ENV_INFO_CACHEv2":[{"name":"","location":"","kind":"
   (AMD64)]","version":{"raw":"3.14.2","major":3,"minor":14,"patch":2,"build":[],"prerelease":["final","0"]},"companyDisplayName":"PythonCore","displayName":"Python
   3.14.2 64-bit","detailedDisplayName":"Python 3.14.2
   64-bit"},"autoSelectionInterpretersQueriedOnce":true,"isRemoteGlobalSettingCopiedKey":true,"pylanceDefaultPromptMemento":true,"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key","defaultValue":[]},{"key":"PYTHON_WAS_DISCOVERY_TRIGGERED_C:\\USERS\\KEVIN\\KEVINHEYER-DEV","defaultValue":false},{"key":"WORKSPACE_FOLDER_INTERPRETER_PATH_C:\\USERS\\KEVIN\\KEVINHEYER-DEV"},{"key":"preferredGlobalPyInterpreter"},{"key":"isRemoteGlobalSettingCopiedKey","defaultValue":false},{"key":"autoSelectionInterpretersQueriedOnce"},{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]},{"key":"SHELL_INTEGRATION_WORKING_KEY_powershell"},{"key":"PYTHON_ENV_INFO_CACHEv2","defaultValue":[]},{"key":"VSCode.ABExp.FeatureData","defaultValue":{"features":[]}}],"PYTHON_WAS_DISCOVERY_TRIGGERED_C:\\USERS\\KEVIN\\KEVINHEYER-DEV":true,"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key":["C:\\USERS\\KEVIN\\KEVINHEYER-DEV"]}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gitlensInspect","pinned":false,"visible":false,"order":9},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.projectPilot","pinned":true,"visible":false,"order":13}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.opentofu","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gitlensInspect","pinned":false,"visible":false,"order":9},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.ansible-explorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.projectPilot","pinned":true,"visible":false,"order":13}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -20,9 +22,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
   scm.historyProviderCount !=
-  '0'\"}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\"run-view-ic\
-  on\"},\"name\":\"Run and
-  Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
+  '0'\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"w\
+  hen\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gi\
+  tlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disab\
+  led\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"},{\"w\
+  hen\":\"!gitlens:disabled\"},{\"when\":\"!gitlens:disabled\"}]},{\"id\":\"wor\
+  kbench.view.debug\",\"themeIcon\":{\"id\":\"run-view-icon\"},\"name\":\"Run
+  and Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
   'simple'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
   'default'\"},{\"when\":\"debugUx ==
   'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
@@ -91,12 +97,15 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
-  \"}]},{\"id\":\"workbench.view.extension.gitlens\",\"name\":\"GitLens\",\"isB\
-  uiltin\":false},{\"id\":\"workbench.view.extension.opentofu\",\"iconUrl\":{\"\
-  $mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/opentofu.vscode-opentofu-0.6.0-wi\
-  n32-x64/assets/icons/vs_code_opentofu.svg\",\"scheme\":\"file\"},\"name\":\"O\
-  penTofu\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.ext\
-  ension.gitlensInspect\",\"name\":\"GitLens
+  \"}]},{\"id\":\"workbench.view.extension.gitlens\",\"iconUrl\":{\"$mid\":1,\"\
+  path\":\"%%EXTENSION_DATA_PATH%%/kylinideteam.gitlens-0.1.10-universal/images\
+  /gitlens-activitybar.svg\",\"scheme\":\"file\"},\"name\":\"GitLens\",\"isBuil\
+  tin\":false,\"views\":[{\"when\":\"gitlens:views:welcome:visible\"}]},{\"id\":\
+  \"workbench.view.extension.opentofu\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EX\
+  TENSION_DATA_PATH%%/opentofu.vscode-opentofu-0.6.0-win32-x64/assets/icons/vs_\
+  code_opentofu.svg\",\"scheme\":\"file\"},\"name\":\"OpenTofu\",\"isBuiltin\":\
+  false,\"views\":[{},{}]},{\"id\":\"workbench.view.extension.gitlensInspect\",\
+  \"name\":\"GitLens
   Inspect\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.containersV\
   iew\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-azuretool\
   s.vscode-containers-2.3.0-universal/resources/ContainerTools.svg\",\"scheme\":\
@@ -133,12 +142,12 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "266"
-workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false}]'
+workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.kylincommitsRelevant","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":true},{"id":"gitlens.views.searchAndCompare","isHidden":false}]'
 workbench.sideBar.size: "300"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
 workbench.view.extension.ansible-explorer.state.hidden: '[{"id":"ansible-home","isHidden":false},{"id":"lightspeed-explorer-webview","isHidden":false},{"id":"lightspeed-feedback-webview","isHidden":false}]'
 workbench.view.extension.containersView.state.hidden: '[{"id":"vscode-containers.views.containers","isHidden":false},{"id":"vscode-containers.views.images","isHidden":false},{"id":"vscode-containers.views.registries","isHidden":false},{"id":"vscode-containers.views.networks","isHidden":false},{"id":"vscode-containers.views.volumes","isHidden":false},{"id":"vscode-containers.views.dockerContexts","isHidden":false},{"id":"vscode-containers.views.help","isHidden":false}]'
-workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false}]'
+workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false},{"id":"gitlens.views.welcome","isHidden":false}]'
 workbench.view.extension.gitlensInspect.state.hidden: '[{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false}]'
 workbench.view.extension.gitlensPanel.state.hidden: '[{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
 workbench.view.extension.lightspeed-training-match-panel.state.hidden: '[{"id":"ansible.lightspeed.trainingMatchPanel","isHidden":false}]'
@@ -147,7 +156,7 @@ workbench.view.extension.projectPilot.state.hidden: '[{"id":"projectPilot.manage
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false},{"id":"workbench.views.extensions.local.installed","isHidden":false},{"id":"workbench.views.extensions.remote.installed","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "5"
+workbench.views.extensions.installed.size: "10"
 workbench.views.extensions.local.installed.size: "7"
 workbench.views.extensions.remote.installed.size: "0"
 workbench.welcomePage.hiddenCategories: '["Setup","ms-python.python#pythonWelcome"]'

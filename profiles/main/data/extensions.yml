@@ -4,6 +4,8 @@ enabled:
     uuid: 3b8b338d-98ea-480b-9a9c-f117e0d365f2
   - id: 4ops.packer
     uuid: 845ae667-6113-4243-b0d5-4610762b2b33
+  - id: KylinIDETeam.gitlens
+    uuid: 60f5f3c1-a693-4d84-907a-5315b79617a0
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
