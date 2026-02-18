@@ -1,4 +1,6 @@
 {
     "gitlens.showWhatsNewAfterUpgrades": false,
-    "workbench.colorTheme": "Dark (Molokai)"
+    "workbench.colorTheme": "Dark (Molokai)",
+    "editor.linkedEditing": true,
+    "workbench.iconTheme": "material-icon-theme"
 }
