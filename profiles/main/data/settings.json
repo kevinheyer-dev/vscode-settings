@@ -1,3 +1,4 @@
 {
-    "gitlens.showWhatsNewAfterUpgrades": false
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "workbench.colorTheme": "Dark (Molokai)"
 }

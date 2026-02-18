@@ -12,6 +12,8 @@ enabled:
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: nonylene.dark-molokai-theme
+    uuid: 72172258-40a8-40e0-82b8-e332a677ae16
   - id: opentofu.vscode-opentofu
     uuid: f52f98b8-9404-4d1e-b4da-73d60dc6838b
   - id: redhat.ansible
