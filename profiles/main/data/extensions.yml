@@ -1,7 +1,17 @@
 disabled: []
 enabled:
+  - id: 21zz.vscord
+    uuid: 3b8b338d-98ea-480b-9a9c-f117e0d365f2
+  - id: 4ops.packer
+    uuid: 845ae667-6113-4243-b0d5-4610762b2b33
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: opentofu.vscode-opentofu
+    uuid: f52f98b8-9404-4d1e-b4da-73d60dc6838b
   - id: redhat.ansible
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
