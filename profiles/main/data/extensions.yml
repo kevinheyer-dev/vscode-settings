@@ -2,5 +2,9 @@ disabled: []
 enabled:
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: redhat.ansible
+    uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
