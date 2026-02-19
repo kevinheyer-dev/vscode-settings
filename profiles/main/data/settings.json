@@ -1,6 +1,6 @@
 {
     "gitlens.showWhatsNewAfterUpgrades": false,
-    "workbench.colorTheme": "Dark (Molokai)",
     "editor.linkedEditing": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Hunter Flexoki Dark"
 }
