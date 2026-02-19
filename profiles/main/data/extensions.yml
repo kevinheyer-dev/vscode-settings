@@ -4,8 +4,6 @@ enabled:
     uuid: 3b8b338d-98ea-480b-9a9c-f117e0d365f2
   - id: 4ops.packer
     uuid: 845ae667-6113-4243-b0d5-4610762b2b33
-  - id: Catppuccin.catppuccin-vsc
-    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: humao.rest-client
@@ -26,6 +24,8 @@ enabled:
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: pranaygp.vscode-css-peek
     uuid: 0b8f8d63-11a2-4194-969c-ca7488b3413a
+  - id: pranoybiswaas.youtube-music-streamer
+    uuid: 45001d8f-9b2e-4794-8da8-3afc7ebf70ab
   - id: RaillyHugo.one-hunter
     uuid: 4c471c3c-c3ce-43e6-b7bd-ebde0b9c4ace
   - id: redhat.ansible
