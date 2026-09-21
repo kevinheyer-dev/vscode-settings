@@ -1,9 +1,12 @@
-disabled:
-  - id: GitHub.copilot-chat
-    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
+builtin:
+  disabled:
+    - GitHub.copilot-chat
+disabled: []
 enabled:
   - id: 4ops.packer
     uuid: 845ae667-6113-4243-b0d5-4610762b2b33
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: humao.rest-client
@@ -12,6 +15,12 @@ enabled:
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: ms-dotnettools.csdevkit
+    uuid: 7ad42776-8f7e-4214-bf67-4f0b518ef629
+  - id: ms-dotnettools.csharp
+    uuid: d0bfc4ab-1d3a-4487-8782-7cf6027b4fff
+  - id: ms-dotnettools.vscode-dotnet-runtime
+    uuid: 1aab81a1-b3d9-4aef-976b-577d5d90fe3f
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.python
@@ -22,6 +31,8 @@ enabled:
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: ms-vscode-remote.remote-wsl
     uuid: f0c5397b-d357-4197-99f0-cb4202f22818
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
   - id: opentofu.vscode-opentofu
     uuid: f52f98b8-9404-4d1e-b4da-73d60dc6838b
   - id: PKief.material-icon-theme
@@ -36,5 +47,7 @@ enabled:
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: usernamehw.errorlens
+    uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
